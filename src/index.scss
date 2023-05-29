@@ -1,0 +1,31 @@
+
+@import "../src/styles/mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  @include respond(tab_land) { // width <1200?
+    font-size: 56.25%; // 1rem = 9px, 9/16 = 56.25%
+  }
+  @include respond(tab_port) { // width <900?
+    font-size: 50%; // 1rem = 8px, 8/16 = 50%
+  }
+  @include respond(big_desktop) {
+    font-size: 75%; // 1rem = 12px, 12/16 = 75%
+  }
+}
+
+

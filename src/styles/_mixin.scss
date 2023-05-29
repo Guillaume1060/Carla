@@ -1,0 +1,54 @@
+
+@mixin ctn ($color) {
+    position: relative;
+    min-height: 100vh;
+    background-color:$color;
+    padding: 2rem ;
+}
+@mixin title-page($color) {
+    font-size: 12rem;
+    font-family: forum;
+    color: $color;
+}
+@mixin getBack() {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    opacity: 0.5;
+    font-size: 8rem;
+}
+/*
+MEDIA QUERY MANAGER
+0 - 600px : phone
+600 - 900px : tablet portrait
+900 - 1200px : tablet landscape
+[1200-1800] : normal styles apply
+1800px + : big desktop
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+
+ORDER :Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width:37.5em) { @content }; // 600px
+    }
+    @if $breakpoint == tab_port {
+        @media (max-width: 56.25em) { @content }; // 900px
+    }
+    @if $breakpoint == tab_land {
+        @media (max-width: 75em) { @content }; // 1200px
+    }
+    @if $breakpoint == big_desktop {
+        @media (min-width: 112.5em) { @content }; // 1800px
+    }
+}
+
+
