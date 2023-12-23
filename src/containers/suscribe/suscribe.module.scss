@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+@import "../../styles/mixin";
+
+.ctn {
+    background-image: url(../../assets/img/7Y0A9765.JPG);
+    background-repeat: no-repeat; 
+    background-attachment:scroll; 
+    background-size: cover;
+    background-position: center top;
+    margin-top: -2rem;
+    height: 100vh;
+    position: relative;
+}
+
+.footer {
+    gap: 2rem;
+
+    &_title {
+        h2 {
+            padding-top: 2rem;
+            text-align: center;
+            @include title-page($ligh-text-color)
+        }    
+        p {
+            font-size: 2.5rem;
+            font-family: TiltNeon;
+            font-weight: bold;
+            text-align: center;
+            // color: $ligh-text-color;
+            color: white;
+        }
+    }
+
+    // TODO making flexBox
+    &_below {
+        form {
+            text-align: center;
+        }
+        button {
+                background-color: $ligh-text-color;
+                border: none;
+                color: $ligh-text-color;
+                padding: 18px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 6rem;
+                border-radius: 50%;   
+        }
+        &_input {
+            width: 80%;
+            text-align: center;
+            font-size: 6rem;
+    
+            font-family: TiltNeon;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px $ligh-text-color solid;
+            &:focus {
+                outline: none;
+                border-bottom: 1px $ligh-text-color;
+            }
+        }
+    }
+    
+
+} 

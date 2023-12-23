@@ -1,18 +1,20 @@
 @import "../../styles/variables";
 
 .ctn {
-    // background-image: url(../../assets/img/profilcarlaa.jpg);
-    background-image: url(../../assets/img/vynil.jpg);
-    // background-repeat: no-repeat; 
-    // background-attachment:scroll; 
+    background-image: url(../../assets/img/profilcarlaa.jpg);
+    // background-image: url(../../assets/img/vynil.jpg);
+    background-repeat: no-repeat; 
+    background-attachment:scroll; 
     background-size: cover;
+    background-position: center;
     margin-top: -2rem;
+    margin-bottom: 2rem;
     height: 100vh;
 }
 
 .title {
     color: $ligh-text-color;
-    font-family: Forum;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 9rem;
     padding-top: 4rem;
@@ -20,7 +22,7 @@
 }
 
 .heading {
-    margin-bottom: 18rem;
+    margin-bottom: 5rem;
     text-align: center;
     font-family: JosefinSans;
     &_main {

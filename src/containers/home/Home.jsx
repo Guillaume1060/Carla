@@ -10,15 +10,15 @@ const Home = () => {
             <NavBar/>
                 <h1 className={classes.title}>CARLA T</h1>
                 <div>
+                
+                    <div className={classes.footer}>
                     <h3 className={classes.heading}>
                         <span className={classes.heading_main}>TALES OF THE BORDERS</span>
                         <span className={classes.heading_sub}>DEBUT ALBUM</span>
                         <span className={classes.heading_sub}>OUT NOW</span>  
                     </h3>
-                
-                    <div className={classes.footer}>
-                        <Button text={'LISTEN'}  />
-                        <ListIcons color={'#E0E0D5'} />
+                        {/* <Button text={'LISTEN'}  /> */}
+                        <ListIcons color={'#b80032'} />
                     </div>
                 </div>
         </div>
