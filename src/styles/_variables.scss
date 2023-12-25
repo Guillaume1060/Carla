@@ -15,7 +15,7 @@ $footer-text-color: rgb(33,41,34);
 // Titre
 @font-face {
     font-family: 'Forum';
-    src: local('Forum'), url(../styles/fonts2/Forum-Regular.ttf) format('truetype');
+    src: local('Forum'), url(/src/styles/fonts/Forum-Regular.ttf) format('truetype');
   }
 
 // Sous-titre
