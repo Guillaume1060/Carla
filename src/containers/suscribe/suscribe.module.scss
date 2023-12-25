@@ -23,27 +23,26 @@
         h2 {
             padding-top: 2rem;
             text-align: center;
-            @include title-page($ligh-text-color)
+            @include title-page($light-text-color)
         }    
         p {
             font-size: 2.5rem;
             font-family: TiltNeon;
             font-weight: bold;
             text-align: center;
-            // color: $ligh-text-color;
+            // color: $light-text-color;
             color: white;
         }
     }
 
-    // TODO making flexBox
     &_below {
         form {
             text-align: center;
         }
         button {
-                background-color: $ligh-text-color;
+                background-color: $light-text-color;
                 border: none;
-                color: $ligh-text-color;
+                color: $light-text-color;
                 padding: 18px;
                 text-align: center;
                 text-decoration: none;
@@ -59,10 +58,10 @@
             font-family: TiltNeon;
             background-color: transparent;
             border: none;
-            border-bottom: 2px $ligh-text-color solid;
+            border-bottom: 2px $light-text-color solid;
             &:focus {
                 outline: none;
-                border-bottom: 1px $ligh-text-color;
+                border-bottom: 1px $light-text-color;
             }
         }
     }

@@ -1,4 +1,5 @@
 @import "../../styles/variables";
+@import "../../styles/mixin";
 
 .ctn {
     background-image: url(../../assets/img/profilcarlaa.jpg);
@@ -13,12 +14,20 @@
 }
 
 .title {
-    color: $ligh-text-color;
+    color: $light-text-color;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 9rem;
     padding-top: 4rem;
     padding-bottom: 8rem;
+
+    @include respond(phone) {
+        /* Styles spécifiques au breakpoint "phone" */
+    }
+
+    @include respond(tab_port) {
+        /* Styles spécifiques au breakpoint "tab_port" */
+    }
 }
 
 .heading {
@@ -29,14 +38,14 @@
         margin-bottom: 1rem;
         display: block;
         font-size: 4rem;
-        color: $ligh-text-color;
+        color: $light-text-color;
         /* letter-spacing: 2.5rem; */
     }
     &_sub {
         display: block;
         font-size: 2rem;
         letter-spacing: 1.7rem;
-        color: $ligh-text-color;
+        color: $light-text-color;
         /* font-weight: 700; */
     }
 }
