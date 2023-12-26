@@ -1,13 +1,15 @@
 
 @mixin ctn ($color) {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
+    // OR ? min-height: 100vh;
     background-color:$color;
     padding: 2rem ;
 }
 @mixin title-page($color) {
     font-size: 12rem;
     font-family: forum;
+    margin-left: 6rem;
     color: $color;
 }
 @mixin getBack() {
