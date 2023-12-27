@@ -2,6 +2,7 @@ import Home from "../../containers/home/Home";
 import About from "../../containers/about/About"
 import Suscribe from "../../containers/suscribe/Suscribe"
 import Photo from "../../containers/photos/Photo";
+import Press from "../../containers/press/Press";
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <Home/>
             <About/>
             <Photo/>
+            <Press/>
             {/* <Video/>
             <Concert/>
             <Store/> */}

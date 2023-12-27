@@ -1,8 +1,8 @@
 
 @mixin ctn ($color) {
     position: relative;
-    height: 100vh;
-    // OR ? min-height: 100vh;
+    // height: 100vh;
+    min-height: 100vh;
     background-color:$color;
     padding: 2rem ;
 }

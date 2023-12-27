@@ -1,0 +1,41 @@
+@import "/src/styles/variables";
+@import "/src/styles/mixin";
+
+.ctn {
+    @include ctn(#E0E0D5);
+    padding-bottom: 4rem;
+}
+
+.press {
+    display: flex;
+    gap: 2rem;
+    height: 100vh;
+    
+    &_item_left {
+        flex: 1;
+        font-size: 1.6rem;
+
+        h2 {
+            @include title-page(#597A4E)
+        }    
+        p {
+            color: $medium-text-color;
+            font-family: HindGuntur;
+            margin: auto;
+            width: 80%;
+            text-align: justify;
+            // margin-top: 1.2rem;
+        }
+    }
+    &_item_right {
+        flex: 1;
+        // font-size: 2rem;
+        align-items: baseline;
+        .img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+} 
+

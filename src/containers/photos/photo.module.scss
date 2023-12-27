@@ -10,8 +10,21 @@
     // gap: 2rem;
     // height: 100vh;
     h2 {
-        @include title-page(#CBA391)
-    }    
-    
+        @include title-page(#CBA391);
+        margin-top:2rem;
+    }      
 } 
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img {
+        width: 30rem;
+        height: auto;
+        margin: 10px;
+    }
+}
+
 

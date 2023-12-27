@@ -8,12 +8,14 @@ const Photo = () => {
             <div className={classes.photo}>
                     <h2>PHOTOS</h2>
             </div>
-            <div className={classes.photo_item_right}>
-                    {/* <img src="../src/assets/img/7Y0A9409.JPG" alt="carla" className={classes.img}/> */}
+            <div className={classes.gallery}>
+            {/* Ici je peux creer un composant si besoin pour chaque photo */}
+                <img src="/src/assets/img/diapo_1.JPG"></img>
+                <img src="/src/assets/img/diapo_2.JPG"></img>
+                <img src="/src/assets/img/diapo_3.JPG"></img>
             </div>
         </div>
     )
-    
 }
 
 export default Photo
