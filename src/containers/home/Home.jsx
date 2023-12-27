@@ -1,5 +1,4 @@
 import classes from './home.module.scss'
-import Button from '../../composants/button/Button';
 import ListIcons from '../../composants/listIcons/ListIcons';
 import NavBar from '../nav/NavBar';
 
