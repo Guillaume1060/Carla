@@ -2,7 +2,7 @@
 @import "../../styles/mixin";
 
 .ctn {
-    background-image: url(../../assets/img/7Y0A9765.JPG);
+    background-image: url(../../assets/img/page_suscribe.JPG);
     background-repeat: no-repeat; 
     background-attachment:scroll; 
     background-size: cover;
@@ -27,11 +27,10 @@
         }    
         p {
             font-size: 2.5rem;
-            font-family: TiltNeon;
+            font-family: HindGuntur;
             font-weight: bold;
             text-align: center;
-            // color: $light-text-color;
-            color: white;
+            color: $light-text-color;
         }
     }
 
@@ -54,8 +53,7 @@
             width: 80%;
             text-align: center;
             font-size: 6rem;
-    
-            font-family: TiltNeon;
+            font-family: HindGuntur;
             background-color: transparent;
             border: none;
             border-bottom: 2px $light-text-color solid;

@@ -1,0 +1,17 @@
+@import "/src/styles/variables";
+@import "/src/styles/mixin";
+
+.ctn {
+    @include ctn(#825636);
+}
+
+.photo {
+    // display: flex;
+    // gap: 2rem;
+    // height: 100vh;
+    h2 {
+        @include title-page(#CBA391)
+    }    
+    
+} 
+
