@@ -12,10 +12,16 @@ $store-text-color: rgb(196,167,125);
 $footer-text-color: rgb(33,41,34); 
 
 
-// Test
+// Titre 
 @font-face {
   font-family: 'TanMeringue';
-  src: local('TanMeringue'), url(fonts/TAN\ -\ MERINGUE.ttf) format('truetype');
+  src: local('TanMeringue'), url(fonts/Tan_Meringue.ttf) format('truetype');
+} 
+
+// Text about
+@font-face {
+  font-family: 'HindGuntur';
+  src: local('HindGuntur'), url(fonts/HindGuntur-Regular.ttf) format('truetype');
 } 
 
 // Titre
