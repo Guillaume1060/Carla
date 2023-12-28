@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div className={classes.nav_box}>
             <div className={classes.nav_box__list}>
-                <HashLink smooth to={'/#about'} className={classes.nav_box__list__title}>ABOUT YOU</HashLink>
+                <HashLink smooth to={'/#about'} className={classes.nav_box__list__title}>ABOUT</HashLink>
                 <HashLink smooth to={'/#photo'} className={classes.nav_box__list__title}>PHOTOS</HashLink>
                 <HashLink smooth to={'/#press'} className={classes.nav_box__list__title}>PRESS</HashLink>
                 {/* <HashLink smooth to={'/#video'} className={classes.nav_box__list__title}>VIDEOS</HashLink>
