@@ -17,7 +17,7 @@ Carla played in several music projects as a vocalist, guitar player, composer an
                     </p>
                 </div>
                 <div className={classes.about_item_right}>
-                    <img src="/src/assets/img/page_about.jpg" alt="carla" className={classes.img}/>
+                    <img src="/src/assets/img/page_about.JPG" alt="carla" className={classes.img}/>
                 </div>
             </div>
         </div>
