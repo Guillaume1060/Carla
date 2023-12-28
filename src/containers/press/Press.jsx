@@ -10,7 +10,7 @@ const Press = () => {
                     <h2>PRESS</h2>
                 </div>
                 <div className={classes.press_item_right}>
-                    <img src="../src/assets/img/page_press.jpg" alt="carla" className={classes.img}/>
+                    <img src="/assets/img/page_press.jpg" alt="carla" className={classes.img}/>
                 </div>
             </div>
         </div>

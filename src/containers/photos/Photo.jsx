@@ -10,7 +10,7 @@ const Photo = () => {
             </div>
             <div className={classes.gallery}>
             {/* Ici je peux creer un composant si besoin pour chaque photo */}
-                <img src="/src/assets/img/diapo_1.JPG"></img>
+                <img src="/assets/img/diapo_1.JPG"></img>
                 <img src="/src/assets/img/diapo_2.JPG"></img>
                 <img src="/src/assets/img/diapo_3.JPG"></img>
             </div>
