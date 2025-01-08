@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div id='home' className={classes.ctn} >
             <NavBar/>
-                <h1 className={classes.title}>CARLA T</h1>
+                <h1 className={classes.title}>CARLA BREYER</h1>
                 <div>
                 
                     <div className={classes.footer}>
